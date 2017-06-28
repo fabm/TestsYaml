@@ -1,0 +1,24 @@
+!Table
+id: 1
+clients:
+- !AppClient
+  id: 1
+  idApp: 1
+  orders:
+  - id: 1
+    orderDetails:
+    - id: 1
+      name: banana
+      price: 100
+      quantity: 2
+      prodId: 1
+    - id: 2
+      name: sopa
+      price: 50
+      quantity: 2
+      prodId : 2
+    orderState: PREPEARED
+- !TempClient
+  id: 2
+  name: 2
+  orders: null

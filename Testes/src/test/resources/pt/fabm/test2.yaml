@@ -1,0 +1,27 @@
+!Table
+id: 1
+clients:
+- !AppClient
+  id: 1
+  idApp: 1
+  orders:
+  - id: 1
+    orderDetails:
+    - id: 1
+      name: banana
+      quantity: 2
+    - id: 2
+      name: sopa
+      quantity: 2
+- !TempClient 
+  id: 2
+  name: 2
+  orders:
+  - id: 2
+    orderDetails:
+    - id: 3
+      name: Arroz à valenciana
+      quantity: 1
+    - id: 4
+      name: sopa
+      quantity: 2
